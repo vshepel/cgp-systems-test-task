@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 const stylistic = require('@stylistic/eslint-plugin')
 
 const stylisticConfig = stylistic.configs.customize({

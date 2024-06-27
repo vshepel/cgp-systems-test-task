@@ -6,31 +6,31 @@ import Tools from '@/components/Tools.tsx'
 
 const tools: ITool[] = [
   {
-    id: 1,
+    id: '1',
     icon: 'headline',
     title: 'Headline',
-    defaultValue: 'Headline default value',
+    value: 'Headline default value',
     type: 'headline',
   },
   {
-    id: 2,
+    id: '2',
     icon: 'text-align-left',
     title: 'Paragraph',
-    defaultValue: 'Prompt your customer to revisit your store by showing them the products they left behind.',
+    value: 'Prompt your customer to revisit your store by showing them the products they left behind.',
     type: 'paragraph',
   },
   {
-    id: 3,
+    id: '3',
     icon: 'image',
     title: 'Button',
-    defaultValue: 'Example button',
+    value: 'Example button',
     type: 'button',
   },
   {
-    id: 4,
+    id: '4',
     icon: 'image',
     title: 'Image',
-    defaultValue: 'https://picsum.photos/600',
+    value: 'https://placehold.co/540x230',
     type: 'image',
   },
 ]

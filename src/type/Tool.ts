@@ -1,9 +1,9 @@
 import type { IIcon } from '@/type/Icon'
 
 export interface ITool {
-  id: number
+  id: string
   icon: IIcon
   title: string
-  defaultValue?: string
   type: 'headline' | 'paragraph' | 'button' | 'image'
+  value?: string
 }
